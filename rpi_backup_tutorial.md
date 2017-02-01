@@ -12,8 +12,10 @@
 - Rufus (https://rufus.akeo.ie/)  
 - Ubuntu or another debian-based linux os (https://www.ubuntu.com/download/desktop)
 ***
+
 ### WARNING: Be extremely careful as you follow these instructions. If you aren't sure of something or have a question, *be sure to ask for help*. Using these tools could *seriously damage* or *permanently delete* your data and files if you use them improperly.      
 ***
+
 ###### Installing Ubuntu on a USB stick:  
 If you have downloaded the ubuntu image, rufus, and win32diskimager, you're ready to start.
 
@@ -27,6 +29,7 @@ Once it finishes, go ahead and press close.
 
 Now that our ubuntu USB stick is ready, go ahead and eject it from your computer. Set it aside.
 ***
+
 ###### Making the backup image of the Raspberry Pi SD card:  
 If you haven't already, run `sudo shutdown -h now` on your raspberry pi to shut it down safely. Once it's off, go ahead and pull out the sd card and put it into your card reader on your computer.
 
@@ -42,6 +45,7 @@ Under image file, type in the desired path and filename of your soon-to-be image
 
 When it's done, go ahead and press exit. You can eject the SD card now.
 ***
+
 ###### Trimming down the size of your `.img` file:
 You could be done now, but there is one problem: if you try to write your `.img` file to an SD card, you may find that it won't fit. Even if your card seems to be the right size, different card manufacturers have slight differences in their cards that can cause this to be a problem. What we're going to do is trim it down so that it will fit on any smaller card with enough room. (Roughly 4 GB should be small enough).
 
@@ -122,6 +126,7 @@ Next, drag your `.img` file into your compressed folder and wait for the compres
 
 ![wait for compression to finish](img/compress_2.png)
 ***
+
 ###### Restoring the backup to a new SD card:  
 When you're ready to restore the backup to a new SD card, open up that compressed folder and extract the `.img` file.
 
