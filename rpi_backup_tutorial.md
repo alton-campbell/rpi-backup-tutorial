@@ -11,9 +11,9 @@
 - Win32DiskImager (https://sourceforge.net/projects/win32diskimager/)  
 - Rufus (https://rufus.akeo.ie/)  
 - Ubuntu or another debian-based linux os (https://www.ubuntu.com/download/desktop)
----
+***
 ### WARNING: Be extremely careful as you follow these instructions. If you aren't sure of something or have a question, *be sure to ask for help*. Using these tools could *seriously damage* or *permanently delete* your data and files if you use them improperly.      
----
+***
 ###### Installing Ubuntu on a USB stick:  
 If you have downloaded the ubuntu image, rufus, and win32diskimager, you're ready to start.
 
